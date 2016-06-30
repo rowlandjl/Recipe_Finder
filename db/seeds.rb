@@ -1,7 +1,9 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+Allergy.find_or_create_by!(name: "Dairy-Free")
+Allergy.find_or_create_by!(name: "Egg-Free")
+Allergy.find_or_create_by!(name: "Gluten-Free")
+Allergy.find_or_create_by!(name: "Seafood-Free")
+Allergy.find_or_create_by!(name: "Sesame-Free")
+Allergy.find_or_create_by!(name: "Soy-Free")
+Allergy.find_or_create_by!(name: "Sulfite-Free")
+Allergy.find_or_create_by!(name: "Tree Nut-Free")
+Allergy.find_or_create_by!(name: "Wheat-Free")
