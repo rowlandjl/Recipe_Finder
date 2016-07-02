@@ -1,3 +1,5 @@
 class Diet < ActiveRecord::Base
-  validates :name, presence: true 
+  has_many :user_diets
+  
+  validates :name, presence: true
 end
